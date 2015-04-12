@@ -1,0 +1,42 @@
+<Employees>
+
+	<Employee>
+		<Name> Prasad </Name>
+		<Address> Primpri </Address>
+		<Age> 22 </Age>
+		<Salary> 75000 </Salary>
+	</Employee>
+
+	<Employee>
+		<Name> Rohit </Name>
+		<Address> Khadki </Address>
+		<Age> 22 </Age>
+		<Salary> 85000 </Salary>
+	</Employee>
+
+	<Employee>
+		<Name> Vishal </Name>
+		<Address> Rasta Peth </Address>
+		<Age> 21 </Age>
+		<Salary> 65000 </Salary>
+	</Employee>
+
+	<Employee>
+		<Name> Ronak </Name>
+		<Address> Balajinagar </Address>
+		<Age> 21 </Age>
+		<Salary> 95000 </Salary>
+	</Employee>
+
+	<Employee>
+		<Name> Pawan </Name>
+		<Address> Kothrud </Address>
+		<Age> 22 </Age>
+		<Salary> 60000 </Salary>
+	</Employee>
+
+
+</Employees>
+
+
+

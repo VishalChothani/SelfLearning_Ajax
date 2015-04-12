@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Yellow Stone Blog</title>
+		<link rel="stylesheet" type="text/css" href="../css/blog.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>
+		<div class="container-wrapper">
+			<div class="navigate">
+				<ul>
+					<li><a href="yellow-stone-home.html" title="home">Home</a></li>
+					<li><a href="yellow-stone-support.html" title="support">Support</a></li>
+					<li><a href="yellow-stone-aboutus.html" title="about-us">About Us</a></li>
+					<li><a href="yellow-stone-blog.html" class="home" title="blog">Blog</a></li>
+					<li><a href="yellow-stone-contactus.html" title="contact-us">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="main-wrapper">
+				<div class="header-wrapper">
+					<div class="image-wrapper">
+						<div class="header">
+							<h1>
+								<a href="#"><span class="header1">Yellow</span>
+								<span class="header2">stone</span></a>
+							</h1>							
+						</div>
+
+						<div class="logo">
+							<p>put your slogan here</p>
+						</div>
+	
+					</div>
+				</div>
+				<div class="body-wrapper">
+
+					<div class="body1-wrapper">
+						<div class="content-wrapper">
+							<div class="template-license">				<!-- Template -->
+								<div class="sidebar-title">
+									<h3>A Blog Entry</h3>
+								</div>
+
+								<div class="template-para">
+	
+          								<p>Posted by <a href="#">Owner</a> <span>&nbsp;&bull;&nbsp;</span> Filed under
+									<a href="#">templates</a> , <a href="#">internet</a></p>
+          
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero.
+									Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam,
+									lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis,
+									purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut
+									diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum,
+									lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel
+									urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet,
+									consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna.
+									Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu
+									posuere nunc justo tempus leo. </p>
+
+          								<p>Tagged: <a href="#">orci</a>, <a href="#">lectus</a>, 
+									<a href="#">varius</a>, <a href="#">turpis</a></p>
+
+          								<p><a href="#"><span>Comments (3)</span></a> &nbsp;&bull;&nbsp;
+									May 27, 2010 &nbsp;&bull;&nbsp; <a href="#"><span>Edit</span>
+									</a></p>
+
+								</div>
+							</div>
+
+
+							<div class="template-license response-title">				<!-- Template -->
+								<div class="sidebar-title">
+									<h3>3 Responses </h3>
+								</div>
+
+								<div class="template-para">
+									<div class="response">
+										<div class="image-para">
+
+											<div class="image-wrap">
+			          								<img src="../images/userpic.gif" alt="response-image">
+	        									</div>
+											<div class="para-wrap">	  
+												<p><a href="#">admin</a> &nbsp;Says:</p>
+				  								<p>April 20th, 2009 at 2:17 pm</p>
+											</div>
+										</div>
+	
+        	  								<p class="comment">Lorem ipsum dolor sit amet, consectetuer adipiscing 										elit. Donec libero.Suspendisse bibendum.</p>
+									</div>
+
+									<div class="response">
+	          								<div class="image-para">
+
+											<div class="image-wrap">
+			          								<img src="../images/userpic.gif" alt="response-image">
+	        									</div>
+											<div class="para-wrap">	  
+												<p><a href="#">Owner</a> &nbsp;Says:</p>
+				  								<p>April 20th, 2009 at 3:21 pm</p>
+											</div>
+										</div>
+        	  								<p class="comment">Lorem ipsum dolor sit amet, consectetuer adipiscing 
+										elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt,
+										orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc
+										justo tempus leo.</p>
+									</div>
+
+									<div class="response">
+	          								<div class="image-para">
+
+											<div class="image-wrap">
+			          								<img src="../images/userpic.gif" alt="response-image">
+	        									</div>
+											<div class="para-wrap">	  
+												<p><a href="#">admin</a> &nbsp;Says:</p>
+				  								<p>April 20th, 2009 at 2:17 pm</p>
+											</div>
+										</div>
+        	  								<p class="comment">Lorem ipsum dolor sit amet, consectetuer adipiscing
+										elit. Donec libero. Suspendisse bibendum.</p>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="template-license">			<!-- Template -->
+								<div class="sidebar-title">
+									<h3>Leave a Reply</h3>
+								</div>
+								<form action="#" method="post">							
+									<div class="contact-form">
+										<div>
+											<label> Name (required) </label>	
+											<input type="text" />	
+										</div>
+
+										<div>
+											<label> Email Address (required) </label>	
+											<input type="text" />	
+										</div>
+
+										<div>
+											<label> Website</label>	
+											<input type="text" />	
+										</div>
+
+										<div>
+											<label> Your Message</label>	
+											<textarea rows="7" cols="67" values="">	</textarea>
+										</div>
+
+										<div class="submit">
+											<img src="../images/submit.gif" alt="Submit"/>	
+										</div>
+
+									</div>
+								</form>
+							</div>
+						</div>
+
+
+						<div class="sidebar-wrapper">
+							<form action="#" method="post">	
+								<div>						
+									<input type="image" src="../images/search.gif" />
+									<label> Search our site: </label>	
+									<input type="image" src="../images/search_btn.gif" />	
+								</div>
+							</form>
+							<div class="sidebar-menu">
+								<div class="sidebar-title">
+									<h3>Sidebar Menu</h3>
+								</div>
+								<div class="sidebar-list">
+									<ul>
+										<li><a href="#">Home</a></li>
+									    	<li><a href="#">TemplateInfo</a></li>
+									    	<li><a href="#">Style Demo</a></li>
+									    	<li><a href="#">Blog</a></li>
+									    	<li><a href="#">Archives</a></li>
+									    	<li><a href="#">Web Templates</a></li>
+									 </ul>
+								</div>
+
+							</div>
+
+							<div class="sidebar-menu">
+								<div class="sidebar-title">
+									<h3>Sponsors</h3>
+								</div>
+								<div class="sidebar-list">
+									<ul>
+										<li><a href="http://www.dreamtemplate.com">DreamTemplate</a>
+		      									<p>Over 6,000+ Premium Web Templates</p></li>
+		    								<li><a href="http://www.templatesold.com/">TemplateSOLD</a>
+									      		<p>Premium WordPress &amp; Joomla Themes</p></li>
+									    	<li><a href="http://www.imhosted.com">ImHosted.com</a>
+									      		<p>Affordable Web Hosting Provider</p></li>
+									    	<li><a href="http://www.myvectorstore.com">MyVectorStore</a>
+									      		<p>Royalty Free Stock Icons</p></li>
+									    	<li><a href="http://www.evrsoft.com">Evrsoft</a>
+									      		<p>Website Builder Software &amp; Tools</p></li>
+									    	<li><a href="http://www.csshub.com/">CSS Hub</a>
+									      		<p>Premium CSS Templates</p></li>
+									 </ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="body2-wrapper">
+						<div class="image-gallery">
+							<div class="sidebar-title">
+        							<h3>Image Gallery</h3>
+							</div>
+							<div class="image-album">
+								<div class="row0">
+									<img src="../images/pix1.jpg" width="58" height="58" alt="Pic1" /> 
+									<img src="../images/pix2.jpg" width="58" height="58" alt="Pic2" /> 
+									<img src="../images/pix3.jpg" width="58" height="58" alt="Pic3" /> 
+								</div>
+								<div class="row1">
+									<img src="../images/pix4.jpg" width="58" height="58" alt="Pic4" /> 
+									<img src="../images/pix5.jpg" width="58" height="58" alt="Pic5" /> 
+									<img src="../images/pix6.jpg" width="58" height="58" alt="Pic6" /> 
+								</div>
+							</div>
+						</div>
+
+						<div class="lorem">
+							<div class="sidebar-title">
+        							<h3>Lorem Ipsum</h3>
+							</div>
+							<div class="body2-content">
+								<p>Lorem ipsum dolor</p>
+          							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse
+ 								bibendum. Cras id urna. <a href="#">Morbi tincidunt, orci ac convallis aliquam</a>, 									lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec
+ 								placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+							</div>
+						</div>
+
+						<div class="contact">
+       				 			<div class="sidebar-title">
+        							<h3>Contact</h3>
+							</div>
+							<div class="body2-content">
+								<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
+								<p><a href="#">support@yoursite.com</a></p>
+								<p>+1 (123) 444-5677<br />
+								  +1 (123) 444-5678</p>
+								<p>Address: 123 TemplateAccess Rd1</p>
+      							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+      					<p>&copy; Copyright <a href="#">MyWebSite</a>.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

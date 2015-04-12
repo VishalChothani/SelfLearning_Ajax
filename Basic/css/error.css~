@@ -1,0 +1,86 @@
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	float: left;
+	font-size: 100%;
+	margin: 0;
+	min-width : 100%;
+	height: 100%;
+}
+
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;	
+	width : 100%;	
+
+	/*min-height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	
+}
+
+.section-wrapper
+{
+	width : 100%;
+	float : left;
+	background-color : #030504;
+}
+
+section
+{
+	width : 960px;
+	margin : 0 auto;
+	overflow : hidden;
+	background-image : url("../images/matrix1.png");
+	padding-top : 20px;
+	min-height: 458px;
+	padding-left : 20px;
+}
+
+
+h3
+{
+	clear : both;
+	float : left;
+	font-size : 30px;
+	font-family : monospace;
+	color : #609E0B;
+	margin-left : 20px;
+	margin-top : 20px;
+}
+
+form label
+{
+	clear : both;
+	float : left;
+	margin-left : 70px;
+	font-size : 20px;
+	font-family : monospace;
+	margin-top : 10px;	
+	color : #73CA01;
+	padding : 5px;
+	
+}
+
+form input
+{
+	clear: both;
+	float: left;
+	border-radius: 15px;
+	width: 100px;
+	padding-bottom: 23px;
+	margin-left: 70px;
+	margin-top: 10px;
+	color: #73CA01;
+	background-color: #333;
+	padding: 5px;
+	border: 1px solid #C1C1C1;
+	height: 25px;
+}
+
+

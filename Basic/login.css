@@ -1,0 +1,45 @@
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	float: left;
+	font-size: 100%;
+	margin: 0;
+	min-width : 100%;
+	height: 100%;
+	color : white;
+}
+
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;	
+	width : 100%;	
+	
+}
+
+.section-wrapper
+{
+	width : 100%;
+	float : left;
+	background-color : #030504;
+}
+
+section
+{
+	width : 960px;
+	margin : 0 auto;
+	overflow : hidden;
+	background-image : url("../images/matrix1.png");
+	padding-top : 100px;
+	min-height: 458px;
+	color : white;
+}
+
+.wrapper-record > div {
+    color: white;
+}

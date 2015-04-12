@@ -1,0 +1,29 @@
+.footer-wrapper
+{
+	background-image : url("../images/header.jpg");
+	background-repeat : repeat-x;
+	height : 110px;
+	min-width : 100%;
+	float : left;
+	overflow : hidden;
+	
+}
+
+footer
+{
+	width : 960px;	
+	margin : 0 auto;	
+	font-family : monospace;
+	font-size : 16px;
+	font-weight : bold;
+	margin-top : 25px;
+	color : #333333;
+	height: 142px;
+}
+
+.push 
+{
+	height: 142px; /* .push must be the same height as .footer */
+}
+
+

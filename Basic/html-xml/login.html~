@@ -1,0 +1,123 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>AJAX</title>
+
+		
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+		<script src="../js/login.js"></script>	
+		<script type="text/javascript" src="../js/ajax-dynamic-content.js"></script>
+		<script type="text/javascript" src="../js/ajax.js"></script>
+		<script type="text/javascript" src="../js/ajax-tooltip.js"></script>	
+
+		<link rel="stylesheet" href="../css/ajax-tooltip.css" media="screen" type="text/css">
+		<link rel="stylesheet" href="../css/ajax-tooltip-demo.css" media="screen" type="text/css">
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+
+		<link rel="stylesheet" type="text/css" href="../css/tickertape.css" />
+		
+	</head>
+
+	<body onload="information(),articles()">	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>Ajax Assignment #1</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+
+					<div class="wrapper-record">
+						<h3>XML to HTML</h3>
+						<div id="title">
+							<span>Name</span>
+							<span>Address</span>
+							<span>Age</span>
+							<span>Salary</span>
+						</div>
+						<div id="xml-contents">
+						</div>
+					</div>
+
+					<div>
+						<h3>Text to HTML</h3>
+						<div id="articles">	
+							
+							<div id="article-screen">
+							</div>
+	
+							<div id="article-remote">
+								
+								<input type="button" id="article-1" value="news1" onclick="article(this)"/>
+								<input type="button" id="article-2" value="news2" onclick="article(this)"/>
+								<input type="button" id="article-3" value="news3" onclick="article(this)"/>
+								<input type="button" id="article-4" value="news4" onclick="article(this)"/>
+								<input type="button" id="article-5" value="news5" onclick="article(this)"/>
+								<input type="button" id="article-6" value="news6" onclick="article(this)"/>
+								<input type="button" id="article-7" value="news7" onclick="article(this)"/>
+								<input type="button" id="article-8" value="news8" onclick="article(this)"/>
+							</div>
+						
+						</div>
+					</div>
+
+					<div id="ticker-tape">
+						<h3>Ticker Tape</h3>
+						<div class="styledTickerTape basicTickerTape" id="tickerTape"><ul></ul></div>
+						
+					</div>
+
+					<div class="tool">
+						<h3>Tool Tip</h3>
+						<div id="mainContainer">
+
+							<div id="menuColumn">
+								This is an Ajax tooltip script.	When you roll your mouse over the "info" links in the table, 
+								ajax will show tooltip content from external files.			
+							</div>
+							<div id="mainContent">
+								<table width="100%" class="productTable">
+									<thead>
+										<th>Product</th>
+										<th>Info</th>
+									</thead>
+									<tbody>
+										<tr class="oddRow">
+											<td>JS Calendar</td>
+											<td><a href="#" onmouseover="ajax_showTooltip(window.event,'../demo-pages/js-calendar.html',this);return false" onmouseout="ajax_hideTooltip()">Info</a></td>	
+										</tr>
+										<tr class="evenRow">
+											<td>Dragable boxes</td>
+											<td><a href="#" onmouseover="ajax_showTooltip(window.event,'../demo-pages/dragable-boxes.html',this);return false" onmouseout="ajax_hideTooltip()">Info</a></td>				
+										</tr>
+										<tr class="oddRow">
+											<td>Ajax tooltip</td>
+											<td><a href="#" onmouseover="ajax_showTooltip(window.event,'../demo-pages/ajax-tooltip.html',this);return false" onmouseout="ajax_hideTooltip()">Info</a></td>				
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		</div>
+		<div class="footer-wrapper">
+			<footer>
+				<h2>&copy; AGS Technologies</h2>
+			</footer>
+		</div>
+		<script type="text/javascript" src="../js/TickerTape.js"></script>
+		<script type="text/javascript">
+			var ticker = new TickerTape('../text/demo-data.txt', 3000);
+			ticker.init(document.getElementById('tickerTape'));
+		</script>
+	</body>
+</html>

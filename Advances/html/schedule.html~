@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Schedule</title>
+	<link rel="stylesheet" type="text/css" href="../css/schedule.css">
+</head>
+
+<body>
+
+		<header>
+			<div id="wrapper">
+				<h1>Schedule</h1>
+			</div>
+		</header>
+
+		<section >
+				<nav>				
+					<div class = "time-table">
+						<div id="wrapper1">
+							<p>
+								<label>Time Table : </label>
+							</p>
+							<table border = 1>
+							
+								<thead>
+									<tr>
+										<td>Days</td>
+										<td>8:30</td>
+										<td>10:30</td>
+										<td>14:30</td>
+										<td>17:30</td>
+										<td>19:30</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="design1">
+										<td>Monday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>
+									<tr class="design2">
+										<td>Tuesday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>
+									<tr class="design1">
+										<td>Wednesday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>
+									<tr class="design2">
+										<td>Thursday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>
+									<tr class="design1">
+										<td>Friday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>
+									<tr class="design2">
+										<td>Saturday</td>
+										<td>In-Time</td>
+										<td>Tea-Break</td>
+										<td>Lunch</td>
+										<td>Break</td>
+										<td>Out-Time</td>
+									</tr>						
+									<tr class="design1">
+										<td>Sunday</td>
+										<td colspan="5">HOLIDAY</td>
+									</tr>
+								</tbody>						
+							</table>
+						</div>
+					</div>
+					<div class = "back">
+						<div id="wrapper2">
+							<p><a href="asg1.html" title="personal-info">Personal Info</a></p>
+						</div>
+					</div>
+			
+				</nav>
+		</section>
+
+		<footer>
+			<div id="wrapper3">
+				<h4>Copy Right @Team Evalution</h4>
+			</div>
+		</footer>
+	
+</body>
+
+</html>

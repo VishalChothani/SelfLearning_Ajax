@@ -1,0 +1,41 @@
+
+function login()
+{
+	var email_id = document.getElementById("select_email").value;	
+	var pwd = document.getElementById("password").value;	
+	if(email_id=="") 
+	{
+
+		document.getElementById("email_error").innerHTML = "Please Enter Email ID" ;
+		//return false;
+		if(pwd=="")
+		{
+			document.getElementById("pass_error").innerHTML ="Please Enter Password";
+	alert(pwd);
+
+			return false;
+		}
+	}
+	if(email_id!="" && pwd=="")
+	{
+		document.getElementById("pass_error").innerHTML ="Please Enter Password";
+		document.getElementById("email_error").innerHTML ="";
+		return false;
+	}
+	else if(email_id=="admin@admin.com" && pwd=="admin")
+	{			
+		document.getElementById("email_error").innerHTML ="";
+		document.getElementById("pass_error").innerHTML ="";
+		window.location.href = "../html/home.html";
+	}
+	else
+	{
+		document.getElementById("email_error").innerHTML ="";
+		document.getElementById("pass_error").innerHTML ="";
+		window.location.href = "../html/error.html";
+		return false;
+	}
+
+}
+
+

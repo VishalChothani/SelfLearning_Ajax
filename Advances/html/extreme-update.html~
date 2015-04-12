@@ -1,0 +1,215 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Extreme Updates</title>
+		<link rel="stylesheet" type="text/css" href="../css/extreme-updates.css" />
+		<meta name="keywords" content="extreme updates,job,important-services" />
+	  	<meta name="description" content="Web Design Template" />
+
+	</head>
+
+	<body>
+	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<div class="header-content">
+					
+						<div class="header-navigate">
+							<p>
+								<span class="home"><a href="#" title="home">
+									HOME
+								</a></span>
+								<span class="about-us"><a href="#" title="about-us">
+									ABOUT US
+								</a></span>
+								<span class="contact-us"><a href="#" title="contact-us">
+									CONTACT
+								</a></span>
+							</p>
+						</div>
+				
+						<div class="header-logo">
+							<a href="#" title="logo"><img src="../images/logo.gif" alt="header-logo" /></a>
+						</div>
+
+					
+						
+						<div class="header-para">
+							<h1>MORBI IN TURPIS NULLAVULPUTATE</h1>
+						
+							<p>Donec convallis nisl sed nequeauris vulptate leo</p> 
+							<p class="para-indent">sit Quisque consequat lacus nunc aenean</p>
+						
+						</div>
+					
+					</div>
+
+					<div class="header-options">
+						<ul>
+							<li><a href="#" title="blog">Blog</a></li>
+							<li><a href="#" title="support">Support</a></li>
+							<li><a href="#" title="solution">Solution</a></li>
+							<li><a href="#" title="testimonials">Testimonials</a></li>
+							<li><a href="#" title="ideas">Ideas</a></li>
+							<li><a href="#" title="projects">Projects</a></li>
+							<li><a href="#" title="contact-us1">Contact Us</a></li>
+						</ul>
+					</div>
+				</header>
+			</div>
+
+			<section>
+				<div class="bg-color">						
+				</div>	
+				<div class="body-top-wrapper">				
+					<section  class="body1">
+						<nav>
+							<h2><span>WHY </span><span>EXTREME UPDATES...</span></h2>
+	      						<div class="nav-text">
+								<p>Extreme Updates is a <span>free, tableless, W3C-compliant</span> web design layout by .
+								This template has been tested and proven compatible with all major browser environments and 
+								operating systems. You are free to modify the design to suit your tastes in any way you like.</p>
+	      							<p>We only ask you to not remove <span>"Design by "</span> and the from the footer of the 
+								template.</p>
+							</div>
+	      						<div class="body1-image">
+								<a href="#" title="morbi">Morbi vel nunc aecenas urna arcu</a>
+							</div>
+						</nav>
+
+						<article>
+							<img src="../images/mid1_top.gif" alt="mid-top" />
+							<div class="imp-service-list">
+								<img src="../images/importaint_service_pic.gif" alt="imp-services" />
+								<div class="imp-services">
+								      	<h2>Important<span> Services</span></h2>
+									<img src="../images/mid1_link_top.gif" alt="mid1_link_top" />
+								      	<div class="image-list">
+										<ul>
+											<li><a href="#">Malesuada a, pretium</a></li>
+											<li><a href="#">Facinia, tincidunt id,</a></li>
+											<li><a href="#">Jigula. Aliquam nec Dm.</a></li>
+											<li><a href="#">Maecenas Aliquet.</a></li>
+											<li><a href="#">Vestibulum Non eninec</a></li>
+											<li><a href="#">AuguIortaconsequat</a></li>
+											<li><a href="#">Iacus nec nunc. Aenean </a></li>
+											<li><a href="#">placerat Vestibulum</a></li>
+											<li class="no-border"><a href="#">lobortis mollis</a></li>
+									      	</ul>
+							    		</div>
+							    	</div>
+							</div>
+						</article>
+
+						<aside>
+							<a href="#" title="job-seeker"><div class="background-job"></div>
+							</a>
+
+							<div class="job-text">
+								<p class="what-should">what should</p>
+								<p>......<span>BEST FOR</span>......</p>
+							</div>
+
+							<a href="#" title="right-logo"><div class="right-logo"></div>
+							</a>
+
+							<a href="#" title="view">
+								<div class="view-more">
+								<p>View more</p>
+								</div>
+							</a>
+						</aside>
+					</section>
+				</div>
+				<div class="body-down-wrapper">
+
+					<section class="body2">
+					
+						<nav>
+							<h2><span>News</span>
+							..................................................................................................</h2>
+							<div class="text-wrap">
+								<div class="nav-text">
+									<p><img src="../images/news_pic.gif" alt="Picture" />
+									<span>Vestibulum ante ipsum primis in faucis</span>orci luctus et  Pellentesque
+									placerat. Sed neque. Nam eros dui, dapibus id, fermentum sit amet, ullamcorper vel,
+									lacus. Etiam ultricies ligula sed</p>
+									<p><a href="#" title="linkNews">tincidunt id, ligula. Aliquam</a> turpis, lacinia id,
+									sollicitudin vel, aliquet eu, tortor. Donec at erat et ipm porttitor consequat.</p>
+								</div>
+		      						<div class="body1-image body2-image">
+									<a href="#" title="quisque">Quisque consequat lacus nec nunc</a>
+								</div>
+							</div>
+						</nav>
+
+						<article>						
+							<div class="member-login">							
+								<div class="member-login-bgtop">
+								      	<h2><p>Members<p><span>Login</span></h2>
+								</div>
+								<div class="member-form">
+									<form action="#" method="post">
+										<input type="text" class="text-box" value="-Enter your name-" />
+										<input type="password" class="text-box password-text" value="12345678911" />
+										<label>Want To Register ?</label>
+										<div class="button-go">
+											<span>Go</span>
+										</div>
+										<img src="../images/member_login_bottom.gif" alt="member_login_bottom">
+									</form>
+								</div>
+							</div>
+						</article>
+
+						<aside>
+							<h2><span>Support</span>
+							..............................</h2>
+						
+							<div class="support-list">
+								<ul>
+									 <li>Vestibulum ante ipsum primis</li>
+									<li>in Faucis orci luctus et ultrices</li>
+									<li>re Cubilia Curae; Cras vel dui.</li>
+									<li>Vivamus lacinia est non ante.</li>
+									<li>Phasellus elit tellus, condimid,</li>
+									<li>Euismod</li>
+									<li>Vestibulum ante ipsum prim in</li>
+									<li>Faucibusorci</li>
+							      	</ul>
+					    		</div>
+						</aside>
+					</section>
+				</div>
+			</section>
+
+			<div class="footer-wrapper">
+				<footer>
+					<div class="footer-list">
+						<ul>
+							<li><a href="#">Blog</a>|</li>
+							<li><a href="#">Support</a>|</li>
+							<li><a href="#">Solutions</a>|</li>
+							<li><a href="#">Testimonials</a>|</li>
+							<li><a href="#">Developments</a>|</li>
+							<li><a href="#">Ideas</a>|</li>
+							<li><a href="#">Projects</a>|</li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="footer-copy">
+						<p class="copyright">&copy;Extreme Updates. All rights reserved.</p>
+					</div>
+
+					<div class="footer-html-css">
+						<a href="#" title="xhtml"><span>XHTML</span></a>
+						<a href="#" title="css"><span>CSS</span></a>
+					</div>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

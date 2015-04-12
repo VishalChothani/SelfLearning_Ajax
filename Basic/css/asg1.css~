@@ -1,0 +1,149 @@
+body
+{
+	font-family: -webkit-pictograph;
+	float : left;
+	background-color : #DCE2E7;
+	margin : 0px;
+	width : 100%;
+}
+
+#wrapper 
+{
+    	margin: 0 auto;
+	width: 960px;	
+}
+
+#wrapper1 
+{
+    	margin: 0 auto;
+	width: 900px;	
+}
+
+#wrapper2
+{
+    	margin: 0 auto;
+
+}
+
+#wrapper3
+{
+    	margin: 0 auto;
+	width: 800px;	
+}
+
+
+h1 , h4
+{
+	 text-align : center;
+}
+header
+{
+	float : left;
+	background-color : darkSlateBlue;
+	width : 100%;
+	text-align : center;
+	color : white;
+}
+
+section
+{
+	float : left;
+	width : 100%;
+	background-color : #DCE2E7;
+	height : auto;
+}
+
+nav
+{
+	clear : left;
+	float : left;
+	
+	width : 60%;
+
+}
+
+input
+{
+	margin : 16px;
+	clear : left;
+}
+
+label 
+{
+	color : darkSlateBlue;
+}
+
+div
+{
+	margin-left : 35px;
+}
+
+.info-adjust1 p
+{
+	margin-top : -31px;
+}
+
+.info-adjust1 input
+{
+	margin-left : 11px;
+}
+
+
+.info-adjust2 input
+{
+	margin-top : -31px;
+	margin-left : 53px;
+}
+
+.info-adjust4 select
+{
+	margin-left : 41px;
+}
+
+.info-adjust5 table
+{
+	margin-left : 41px;
+}
+
+a:visited
+{
+	color : purple;
+}
+
+a:link
+{
+	color : brown;
+}
+
+a:hover
+{
+	color : orange;
+}
+
+a:active
+{
+	color : darkSlateBlue;
+}
+
+aside
+{
+	float : left;
+	
+	width : 40%;
+
+}
+
+img
+{
+	text-align : right;
+	margin-left: 360px;
+}
+footer
+{
+	margin-top : 25px;
+	float : left;
+	background-color : darkSlateBlue;
+	width : 100%;
+	text-align : center;
+	color : white;
+}

@@ -1,0 +1,16 @@
+/* CSS for CSS_ASSIGNMENT_2 */
+
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+body
+{
+	margin : 0;
+}
+.container
+{
+	margin : 0 auto;
+	width : 960px;
+	background-color : black;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Contact Us</title>
+		<script src="../javascript/contactus.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/contactus.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>Contact Us</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<div class="send-mail">			<!-- Template -->
+						<h3>Send us mail</h3>
+						<form  action="../html/home.html" method="post">							
+							<div class="contact-form">
+								<div class="form-input">
+									<label> Name</label>
+									<input type="text" id="user_name" onblur="accept_name()"/>	
+									<label id="name_error"></label>
+								</div>
+
+								<div class="form-input">
+									<label> Email Address</label>	
+									<input type="text" id="email" onblur="accept_email()"/>
+									<label id="email_error"></label>		
+								</div>
+
+								<div class="form-input">
+									<label> Phone Number</label>	
+									<input type="text" id="phone_no" onblur="accept_number()"/>
+									<label id="phone_error"></label>	
+								</div>
+
+								<div>
+									<label> Your Message (optional)</label>	
+									<textarea cols="" rows="" ></textarea>
+								</div>
+
+								<div class="submit">
+									<input type="submit" value="Submit" onclick="return validate()">
+									<label id="form_error"></label>
+								</div>
+
+							</div>
+						</form>
+					</div>
+			</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

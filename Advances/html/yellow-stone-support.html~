@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Yellow Stone Support</title>
+		<link rel="stylesheet" type="text/css" href="../css/support.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>
+		<div class="container-wrapper">
+			<div class="navigate">
+				<ul>
+					<li><a href="yellow-stone-home.html" title="home">Home</a></li>
+					<li><a href="yellow-stone-support.html" class="home" title="support">Support</a></li>
+					<li><a href="yellow-stone-aboutus.html" title="about-us">About Us</a></li>
+					<li><a href="yellow-stone-blog.html" title="blog">Blog</a></li>
+					<li><a href="yellow-stone-contactus.html"   title="contact-us">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="main-wrapper">
+				<div class="header-wrapper">
+					<div class="image-wrapper">
+						<div class="header">
+							<h1>
+								<a href="#"><span class="header1">Yellow</span>
+								<span class="header2">stone</span></a>
+							</h1>							
+						</div>
+
+						<div class="logo">
+							<p>put your slogan here</p>
+						</div>
+	
+					</div>
+				</div>
+				<div class="body-wrapper">
+
+					<div class="body1-wrapper">
+						<div class="content-wrapper">
+
+							<div class="template-license">				<!-- Template -->
+								<div class="sidebar-title">
+									<h3>Support to Company Name</h3>
+								</div>
+								<div class="template-para">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									<span>Suspendisse nulla ligula, blandit ultricies aliquet ac, lobortis in
+									massa. Nunc dolor sem, tincidunt vitae viverra in, egestas sed lacus.</span>
+									Etiam in ullamcorper felis. Nulla cursus feugiat leo, ut dictum metus semper a.
+									Vivamus euismod, arcu gravida sollicitudin vestibulum, quam sem tempus quam,
+									quis ullamcorper erat nunc in massa. Donec aliquet ante non diam sollicitudin
+									quis auctor velit sodales. Morbi neque est, posuere at fringilla non, mollis nec
+									nibh. Sed commodo tortor nec sem tincidunt mattis. Nam convallis aliquam nibh eu 
+									luctus. Nunc vel tincidunt lacus. Suspendisse sit amet pulvinar ante.</p>
+
+          								<p>Phasellus diam justo, laoreet vel vulputate eu, congue vel est. Maecenas eros
+									libero, sollicitudin a vulputate fermentum, ultrices vel lacus. Nam in metus non
+									augue fermentum consequat ultrices ac enim. Integer aliquam urna non diam
+									aliquam eget hendrerit sem molestie.</p>
+
+								        <p><span>Lorem ipsum dolor sit amet</span></p>
+          								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget
+									bibendum tellus. Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan
+									bibendum eros auctor ac.</p>
+          								
+									<p><span>Lorem ipsum</span></p>
+									<p><span>Lorem ipsum</span></p>
+									<p><span>Lorem ipsum</span></p>
+									<p><span>Lorem ipsum</span></p>
+									<p><span>Lorem ipsum</span></p>
+									<p><span>Lorem ipsum</span></p>
+        							</div>
+							</div>
+							
+						</div>
+
+
+						<div class="sidebar-wrapper">
+							<form action="#" method="post">
+								<div>							
+									<input type="image" src="../images/search.gif" />
+									<label> Search our site: </label>	
+									<input type="image" src="../images/search_btn.gif" />	
+								</div>							
+							</form>
+							<div class="sidebar-menu">
+								<div class="sidebar-title">
+									<h3>Sidebar Menu</h3>
+								</div>
+								<div class="sidebar-list">
+									<ul>
+										<li><a href="#">Home</a></li>
+									    	<li><a href="#">TemplateInfo</a></li>
+									    	<li><a href="#">Style Demo</a></li>
+									    	<li><a href="#">Blog</a></li>
+									    	<li><a href="#">Archives</a></li>
+									    	<li><a href="#">Web Templates</a></li>
+									 </ul>
+								</div>
+
+							</div>
+
+							<div class="sidebar-menu">
+								<div class="sidebar-title">
+									<h3>Sponsors</h3>
+								</div>
+								<div class="sidebar-list">
+									<ul>
+										<li><a href="http://www.dreamtemplate.com">DreamTemplate</a>
+		      									<p>Over 6,000+ Premium Web Templates</p></li>
+		    								<li><a href="http://www.templatesold.com/">TemplateSOLD</a>
+									      		<p>Premium WordPress &amp; Joomla Themes</p></li>
+									    	<li><a href="http://www.imhosted.com">ImHosted.com</a>
+									      		<p>Affordable Web Hosting Provider</p></li>
+									    	<li><a href="http://www.myvectorstore.com">MyVectorStore</a>
+									      		<p>Royalty Free Stock Icons</p></li>
+									    	<li><a href="http://www.evrsoft.com">Evrsoft</a>
+									      		<p>Website Builder Software &amp; Tools</p></li>
+									    	<li><a href="http://www.csshub.com/">CSS Hub</a>
+									      		<p>Premium CSS Templates</p></li>
+									 </ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="body2-wrapper">
+						<div class="image-gallery">
+							<div class="sidebar-title">
+        							<h3>Image Gallery</h3>
+							</div>
+							<div class="image-album">
+								<div class="row0">
+									<img src="../images/pix1.jpg" width="58" height="58" alt="Pic1" /> 
+									<img src="../images/pix2.jpg" width="58" height="58" alt="Pic2" /> 
+									<img src="../images/pix3.jpg" width="58" height="58" alt="Pic3" /> 
+								</div>
+								<div class="row1">
+									<img src="../images/pix4.jpg" width="58" height="58" alt="Pic4" /> 
+									<img src="../images/pix5.jpg" width="58" height="58" alt="Pic5" /> 
+									<img src="../images/pix6.jpg" width="58" height="58" alt="Pic6" /> 
+								</div>
+							</div>
+						</div>
+
+						<div class="lorem">
+							<div class="sidebar-title">
+        							<h3>Lorem Ipsum</h3>
+							</div>
+							<div class="body2-content">
+								<p>Lorem ipsum dolor</p>
+          							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse
+ 								bibendum. Cras id urna. <a href="#">Morbi tincidunt, orci ac convallis aliquam</a>, 									lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec
+ 								placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+							</div>
+						</div>
+
+						<div class="contact">
+       				 			<div class="sidebar-title">
+        							<h3>Contact</h3>
+							</div>
+							<div class="body2-content">
+								<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
+								<p><a href="#">support@yoursite.com</a></p>
+								<p>+1 (123) 444-5677<br />
+								  +1 (123) 444-5678</p>
+								<p>Address: 123 TemplateAccess Rd1</p>
+      							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+      					<p>&copy; Copyright <a href="#">MyWebSite</a>.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

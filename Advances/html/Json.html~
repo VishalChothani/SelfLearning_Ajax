@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>Json</title>
+		<link rel="stylesheet" type="text/css" href="../css/advance.css" />
+		
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<title>Google Maps</title>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=AIzaSyC3HrEzr12d9gBefgpaHlZYByIDo0-e9os" type="text/javascript"></script>
+		<link rel = "stylesheet" href = "../css/style.css">
+
+	</head>
+
+	<body onunload="GUnload()">
+
+		<!-- you can use tables or divs for the overall layout -->
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>Advance Ajax</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<div id = "wrapper"> 
+						<table border=1>
+							<tr>
+								<td>
+									<div id="map" style="width: 960px; height: 450px"></div>
+								</td>
+				
+								<div id="side_bar"></div> 
+
+							</tr>
+
+						</table>
+					</div>
+					<noscript>
+						<b>JavaScript must be enabled in order for you to use Google Maps.</b> 
+					</noscript>
+
+
+					<script type="text/javascript" src="../js/jSonMap.js" type="text/javascript">    //<![CDATA[
+					</script>
+
+				</section>
+			</div>
+			
+		</div>
+		<div class="footer-wrapper">
+			<footer>
+				<h2>&copy; AGS Technologies</h2>
+			</footer>
+		</div>
+	</body>
+
+</html>
+

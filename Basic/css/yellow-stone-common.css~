@@ -1,0 +1,26 @@
+/* CSS for Extreme Updates */
+
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	margin : 0;
+	padding : 0;
+	background-color : #F5F1E6;
+	
+}
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;
+	width : 960px;
+	margin-top : 20px;
+	background-color : #F5F1E6;
+
+}
+
+

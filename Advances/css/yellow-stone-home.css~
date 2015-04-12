@@ -1,0 +1,276 @@
+/* CSS for Yellow Stone */
+
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	margin : 0;
+	padding : 0;
+	background-color : #F5F1E6;
+	
+}
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;
+	width : 960px;
+	margin-top : 20px;
+	background-color : #F5F1E6;
+
+}
+
+.navigate
+{
+	overflow : auto;
+	float : right;
+	height : 28px;
+	padding-top : 10px;
+}
+
+a
+{
+	text-decoration : none;	
+	color : #959595;
+}
+
+.container-wrapper .navigate a
+{
+	text-decoration : none;	
+	padding-top : 10px;
+	padding-bottom : 10px; 
+	padding-right : 24px;
+	padding-left : 24px;
+	color : #959595;
+
+}
+
+.container-wrapper .home
+{
+	background-color : #FED14A;
+	color : #FFFFFF;
+}
+
+.navigate a:hover
+{
+	background-color : #FED14A;
+	color : #FFFFFF;
+
+}
+
+
+.container-wrapper ul
+{
+	clear : both;
+	float : right;
+	padding-right : 12px;
+}
+
+.container-wrapper li
+{
+	display : inline;
+	font-size : 13px;
+	font-family : arial;
+	padding-right : 5px;
+}
+
+.main-wrapper
+{
+	clear : left;
+	float : left;
+	width : 960px;
+	background-color : #FFFFFF;	
+	
+}
+
+/* Body Wrapper */
+
+.body-wrapper
+{
+	clear : both;
+	float : left;
+	overflow : auto;
+	width : 960px;
+}
+
+/* Body1 Wrapper */
+
+.body1-wrapper
+{
+	clear : both;
+	float : left;
+	overflow : auto;
+	width : 960px;
+	margin-top : 24px;	
+}
+
+/* Sidebar */
+
+.sidebar-wrapper
+{
+	float : right;
+	width : 29%;
+}
+
+
+
+form 
+{
+	float : left;
+	position : relative;
+}
+
+label 
+{
+	position : absolute;
+	font-size : 12px;
+	font-family : arial;
+	color : #C1C1C1;
+	margin-top: 12px;
+    	right: 157px;
+}
+
+.sidebar-menu
+{
+	clear : left;
+	float : left;
+	margin-top : 15px;
+}
+
+.sidebar-title
+{	
+	float : left;
+	color : #323A3F;
+	font-size : 24px;
+	font-family : arial;
+}
+
+.sidebar-menu .sidebar-list
+{
+	clear : both;
+	float : left;
+	padding-top : 11px;
+}
+
+.sidebar-menu ul 
+{
+	clear : both;
+	float : left;
+
+}
+.sidebar-menu li
+{
+	overflow : auto; 
+	clear : left;
+	float : left;
+	display : block;
+	padding-top : 11px;
+	padding-bottom : 10px;
+}
+
+.sidebar-menu a:hover
+{
+	color : #47C2DE;
+	text-decoration : underline;
+	font-weight : bold;
+}
+
+.sidebar-menu a
+{
+	padding : 0px;
+}
+
+.sidebar-list p
+{
+	color : #959595;
+	padding-top : 10px;
+}
+
+/* Body2 Wrapper */
+
+.body2-wrapper
+{
+	margin: 0 auto;
+    	padding: 24px 40px;
+	overflow : auto;
+	border-top : 1px solid #D6D6D6;
+	border-bottom : 1px solid #D6D6D6;
+}
+
+/* Image Gallery */
+
+.image-gallery
+{
+	clear : both;
+	float : left;
+	width : 30%;	
+}
+
+.body2-wrapper .sidebar-title
+{
+	margin: 8px 0;
+    	padding: 8px 0;
+}
+
+.image-album
+{
+	clear : both;
+	float : left;
+}
+.row0 , .row1
+{
+	clear : both;
+	float : left;
+}
+
+img
+{
+	padding : 3px;
+	border : 1px solid #D6D6D6;
+	margin : 3px;
+}
+
+/* Lorem Ipsum */
+
+.lorem
+{
+	float : left;
+	width : 34%;	
+	padding-left : 30px;
+	
+}
+
+.body2-content p
+{
+	clear : left;
+	font-size : 13px;
+	font-family : arial;
+	color : #959595;
+	line-height : 22px;
+}
+
+.body2-content a
+{	
+	text-decoration : underline;
+	color : #47C2DE;
+	font-size : 12px;
+}
+
+/* Contact */
+
+.contact
+{
+	float : right;
+	width : 30%;	
+	padding-left : 10px;
+}
+
+.contact p
+{
+	margin-bottom : 20px;
+}
+
+

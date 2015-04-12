@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Login Page</title>
+		<script src="../javascript/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>Login Page</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<form action="../html/home.html" method="post">
+						<h3>Login</h3>
+						<input type="email" id="select_email" placeholder="Enter User ID" />
+						<label id="email_error"></label>
+						<input type="password" id="password" placeholder="password"/>						
+						<label id="pass_error"></label>
+						<input type="submit" onclick="return login()" value="Login" />
+					</form>
+				</section>
+			</div>
+			<div class="push"></div>
+		</div>
+		<div class="footer-wrapper">
+			<footer>
+				<h2>&copy; AGS Technologies</h2>
+			</footer>
+		</div>
+	
+	</body>
+</html>

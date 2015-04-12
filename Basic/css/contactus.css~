@@ -1,0 +1,122 @@
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	float: left;
+	font-size: 100%;
+	margin: 0;
+	min-width : 100%;
+	height: 100%;
+}
+
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;	
+	width : 100%;	
+
+	/*min-height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	
+}
+
+.section-wrapper
+{
+	width : 100%;
+	float : left;
+	background-color : #030504;
+}
+
+section
+{
+	width : 960px;
+	margin : 0 auto;
+	overflow : hidden;
+	background-image : url("../images/matrix1.png");
+	padding-top : 20px;
+	min-height: 458px;
+	padding-left : 20px;
+}
+
+
+h3
+{
+	clear : both;
+	float : left;
+	font-size : 30px;
+	font-family : monospace;
+	color : #609E0B;
+	margin-left : 20px;
+	margin-top : 20px;
+}
+
+form input, form textarea
+{
+	clear : both;
+	float : left;
+	margin-left : 70px;
+	margin-top : 10px;	
+	color : #73CA01;
+	background-color : #333333;
+	padding : 5px;
+	border : 1px solid #C1C1C1;
+	height : 25px;
+	width : 440px;
+}
+
+form textarea
+{
+	height : 70px;
+}
+
+form input[type="submit"]
+{
+	clear : both;
+	float : left;
+	border-radius: 15px;
+	width : 100px;
+	padding-bottom: 23px;
+}
+
+/* Form */
+
+.send-mail
+{
+	clear : both;
+	float : left;
+	padding-bottom : 30px;
+}
+
+form
+{
+	clear : both;
+	float : left;
+	margin-top : 10px;	
+}
+
+
+.contact-form label
+{
+	clear : both;
+	float : left;
+	font-size : 20px;
+	font-family : arial;
+	color : #609E0B;
+	margin-top : 25px;
+	margin-bottom : 5px;
+}
+
+/* Error */
+
+#name_error , #phone_error , #form_error , #email_error
+{
+	font-size : 12px;
+	color : red;
+	margin : 0px;
+	padding-left :70px;	
+}
+

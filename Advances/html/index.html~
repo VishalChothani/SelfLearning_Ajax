@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Login Page</title>
+		<script src="../javascript/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>JAVA Script Assignment #1</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<form>
+						<h3>Login</h3>
+						<input type="email" id="select_email" value="Enter User ID" onclick="select_id()"/>
+						<input type="password" id="password" value=""/>						
+						<input type="submit" onclick="login()" value="Login" />
+					</form>
+			</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

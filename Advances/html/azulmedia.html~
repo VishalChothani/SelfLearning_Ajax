@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>AzulMedia</title>
+	<link rel="stylesheet" type="text/css" href="../css/azulmedia.css" />
+	<meta name="keywords" content="azulmedia,sidebar,template-info" />
+  	<meta name="description" content="Azulmedia" />
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="azul-header">						
+				<div class="azul-title">
+					<h1>
+						<span class="azul">azul</span>
+						<span class="media">media</span>
+					</h1>
+					<span class="logo">Put your site slogan here...</span>
+				</div>
+
+				<div class="menu">							
+					<ul>
+						<li><a href="http://www.google.com" class="home">Home</a></li>
+						<li><a href="http://www.google.com">News</a></li>
+						<li><a href="http://www.google.com">Downloads</a></li>
+						<li><a href="http://www.google.com">Support</a></li>
+						<li><a href="http://www.google.com">About</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="sidebar">											
+				<div class="sidebar-menu">
+					<div class="sidebar-title"><h3>Sidebar Menu</h3></div>
+					<ul class="sidebar-content">
+					
+							<li><a href="http://www.google.com">Home</a></li>
+							<li><a href="http://www.google.com">Template Info</a></li>
+							<li><a href="http://www.google.com">Sample Tags</a></li>
+							<li><a href="http://www.google.com">More Free Templates</a></li>
+							<li><a href="http://www.google.com">Web Templates</a></li>
+					
+					</ul>
+					
+				</div>
+
+				<div class="sponsor-menu">
+					<div class="sidebar-title"><h3>Sponsors</h3></div>
+					<ul class="sidebar-content">
+					
+						<li><a href="http://www.google.com">ThemeTemplate</a></li>
+						<li><a href="http://www.google.com">ThemeLayouts</a></li>
+						<li><a href="http://www.google.com">ImHosted.com</a></li>
+						<li><a href="http://www.google.com">ThemeStock</a></li>
+						<li><a href="http://www.google.com">Evrsoft</a></li>
+						<li><a href="http://www.google.com">Web Hosting</a></li>
+					</ul>
+				</div>
+
+				<div class="search">
+					<div class="sidebar-title"><h3>Search</h3></div>
+					<form class="search-wrapper" action="" method="get">
+						<input type="text" class="text-search" />
+						<input type="button" value="Search" class="button-search" />	
+					</form>
+				</div>
+
+				<div class="wise-words">
+					<div class="wise-wrapper">
+						<div class="sidebar-title"><h3>Wise Words</h3></div>
+      						<p class="quotes">&quot;The happiest people are those who invested their time in others. 
+						The unhappiest people are those who wonder how the world is going to make them happy&quot;</p>
+      						<p class="wise-man">- John Maxwell</p>
+					</div>
+				</div>
+
+				<div class="support">
+					<div class="sidebar-title"><h3>Support</h3></div>
+      					<p class="quotes">If you are interested in supporting my work and would like to contribute, you are 
+					welcome to the make a small donation through the <a href="http://www.google.com/">donate link</a> on my website 
+					- it will be a great help and will surely be appreciated.</p>
+				</div>
+
+
+			</div>
+
+			<div class="information">
+				<div class="template-info">						
+					<div class="template-info-header">
+						<h3>
+							<span class="temp">Template</span> <span class="info">Info</span>
+						</h3>
+					</div>
+
+					<div class="temp-para">
+				       		<p><strong>Azulmedia</strong> is a free, W3C-compliant, CSS-based website template by
+	 					<strong><a href="http://www.google.com/">.com</a></strong>. This work is distributed under the 
+						<a href="http://www.google.com">Creative Commons Attribution 2.5 License</a>, which means
+						that you are free to use and modify it for any purpose. All I ask is that you include a link back to 
+						<a href="http://www.google.com/">my website</a></p>
+
+						<p class="temp-para">You can find more of my free template design at 
+						<a href="http://www.google.com/">my website</a> For premium commercial designs, you can check out 
+						<a href="http://www.google.com/">ThemeTemplate.com</a></p>
+					</div>
+
+					<div class="read-more">
+						<p>Read more | Comments(7) | Oct 28, 2006 </p>
+					</div>
+				</div>
+
+				<div class="sample-tags">						
+					<div class="template-info-header">
+						<h3><span class="temp">Sample</span> <span class="info">Tags</span></h3>
+					</div>
+
+					<h4 class="sample-code">Code</h4>
+					<div class="code-section read-more">
+						<code> 
+							<div>
+								<pre>code-sample {</pre> 
+			 					<pre>font-weight: bold;</pre>
+			  					<pre>font-style: italic;</pre>
+			  					<pre>}</pre>
+							</div>
+						</code>
+	
+					</div>
+
+
+					<div class="lists">						
+						<h4 class="sample-code">Example Lists</h4>
+						<ol>
+						  	<li>example of</li>
+						  	<li>ordered list</li>
+						</ol>
+						<ul>
+						  	<li>example of</li>
+						  	<li>unordered list</li>
+						</ul>      
+					</div>
+
+					<div class="block">
+						<h4 class="sample-code">Blockquote</h4>			
+						<blockquote class="read-more">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat....</p>
+						</blockquote>
+					</div>
+
+					<div class="image-text">						
+						<h4 class="sample-code">Image and text</h4>
+						<p class="image-para"><img src="../images/firefox-gray.jpg" width="100" height="121" alt="firefox-gray" class="image-wrap" /> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Aliquam ornare diam iaculis nibh. Proin luctus, velit pulvinar ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est. </p>
+				
+					</div>
+
+					<div class="eg-form">						
+						<div  class="example-text">
+							<p>Example Form</p>
+						</div>
+						<div class="form-border">
+							<form action="http://www.google.com/">								
+		  						<div class="form-content">
+									<div>
+			    							<label>Name</label>
+										<div class="input-name"><input class="name" value="Your Name" type="text" /></div>
+									</div>
+
+									<div>
+								
+			    							<label>Email</label>
+										<div class="input-name"><input class="name" value="Your Email" type="text" /></div>
+									</div>
+
+									<div>
+			    							<label>Your Comments</label>
+										<div><textarea rows="6" cols="35"></textarea></div>
+									</div>
+								
+		    							<input class="button" type="submit" value="Submit" />
+		  						</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-wrap">
+		<div class="footer-left">
+			<p class="footer-left-content"> &copy; 2010 <strong>Company Name</strong> | 
+			<a href="http://www.google.com/">website templates </a> by </p>
+		</div>
+		<div class="footer-right">
+			<p class="footer-right-content"> </p>
+			<ul class="menu other-menu">
+				<li><a href="http://www.google.com">Home |</a></li>
+				<li><a href="http://www.google.com">SiteMap |</a></li>
+				<li><a href="http://www.google.com">RSS Feed |</a></li>
+				<li><a href="http://www.google.com">XHTML |</a></li>
+				<li><a href="http://www.google.com">CSS</a></li>
+
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

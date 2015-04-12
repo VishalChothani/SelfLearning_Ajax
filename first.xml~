@@ -1,0 +1,16 @@
+<Employees>
+	<Employee>
+	<Name> Prasad </Name>
+	<Address> Primpri </Address>
+	<Age> 22 </Age>
+	<Salary> 17500 </Salary>
+
+	</Employee>
+	<Employee>
+		<Name> Rohit </Name>
+		<Address> Khadki </Address>
+		<Age> 22 </Age>
+		<Salary> 17500 </Salary>
+	</Employee>
+</Employees>
+

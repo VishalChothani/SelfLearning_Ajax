@@ -1,0 +1,184 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Squick</title>
+		<link rel="stylesheet" type="text/css" href="../css/squick.css" />
+		<meta name="keywords" content="squick" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<div class="header-design">
+						<div class="header-parrot">
+							<img src="../images/parrot.png" alt="header-parrot" />
+						</div>
+						<div class="header-title">
+							<img src="../images/logo.gif" alt="header-title" />
+						</div>
+						
+						<div class="header-top-border">
+							<img src="../images/top_box.gif" alt="header-top-border" />
+							<div class="header-border">
+								<div class="header-menu">
+									<ul>
+										<li><a href="#" title="home" class="active-link">home</a></li>
+										<li><a href="#" title="porfolio">porfolio</a></li>
+										<li><a href="#" title="services">services</a></li>
+										<li><a href="#" title="clients">clients</a></li>
+										<li><a href="#" title="contact">contact</a></li>
+									</ul>
+
+									<div class="header-content">
+										<div class="header-content-image">
+											<img src="../images/box_title_bg.gif" alt="design-image" />
+										</div>
+										<div class="header-text">
+                    									<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+											sed do eiusmod tempor incididunt ut labore et dolore magna 
+											aliqua. Ut enim adminim veniam, quis nostrud exercitation 
+											ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+										</div>
+									</div>
+								</div>
+
+								
+							</div>
+						</div>
+
+					</div>
+				</header>
+			</div>
+
+			<section>
+				<div class="body-wrapper">				
+					<nav>
+						<div class="calendar">
+							<div class="calendar-content">
+					        		<h2>Welcome to our small studio</h2>
+		                				<p class="header-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<p class="header-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat.</p>
+					        	</div>
+			                	</div>
+
+						<div class="latest-news">
+							<div class="latest-news-content">
+					        		<h2>Latest News</h2>
+								<div class="latest-news-para">
+									<div class="date">
+										<p>23</p>
+		                					</div>
+									<div class="header-text">
+										<p>"Lorem ipsum dolor sit amet"</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+										eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										minim veniam </p>
+		                					</div>
+									<div class="read-more">
+										<p><a href="#" title="read-more">read more</a></p>
+				        				</div>
+		                				</div>
+								<div class="latest-news-para">
+									<div class="date">
+										<p>23</p>
+		                					</div>
+									<div class="header-text">
+										<p>"Lorem ipsum dolor sit amet"</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+										eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										minim veniam </p>
+		                					</div>
+									<div class="read-more">
+										<p><a href="#" title="read-more">read more</a></p>
+				        				</div>
+		                				</div>
+					        	</div>
+			                	</div>
+					
+					</nav>
+
+					<aside>
+						<div class="latest-news">
+							<div class="latest-news-content">
+					        		<h2>Latest Projects</h2>
+								<div class="projects">
+									<div class="projects-image">
+										<img src="../images/p1.gif" alt="Project1-image" />
+									</div>
+									<div class="header-text">
+										<p>Description :</p>
+										<ul>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+										</ul>
+			        					</div>
+		        					</div>
+								<div class="projects projects2">
+									<div class="projects-image ">
+										<img src="../images/p2.gif" alt="Project2-image" />
+									</div>
+									<div class="header-text">
+										<p>Description :</p>
+										<ul>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+											<li>- Lorem ipsum dolor</li>
+										</ul>
+			        					</div>
+		        					</div>
+	        					</div>
+        					</div>
+						
+
+						<div class="latest-news-content our-services">
+				        		<h2>Our main Services</h2>
+
+							<div class="header-text">
+								<ul>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+								</ul>
+	        					</div>
+	        					
+							
+							<div class="header-text">							
+								<ul>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+									<li><a href="#" title="Lorem-ipsum-dolor">Lorem ipsum dolor</a></li>
+								</ul>
+	        					</div>
+	        					
+        					</div>
+        					
+						
+					</aside>
+				</div>
+			</section>
+
+			<div class="footer-wrapper">
+				<footer>
+					<div class="header-text">
+						<p><a href="#" title="art">Art for the web</a></p>
+					</div>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

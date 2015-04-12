@@ -1,0 +1,278 @@
+function var_display()
+{
+	var number=10;
+	alert("The Variable is :- "+number);
+}
+
+function select_display()
+{
+	document.getElementById("accept_name").select();
+}
+
+function accept_display()
+{
+	var user_name = document.getElementById("accept_name").value;	
+	alert("The User Name is :- "+user_name);
+}
+
+/* Factorial */
+
+function select_fact()
+{
+	document.getElementById("accept_factorial").select();
+}
+
+function factorial()
+{
+	var number = document.getElementById("accept_factorial").value;
+	var fact=1;
+	for(var i=1;i <= number; i++ )
+	{
+		fact=fact *i; 
+	}	
+	alert("The factorial is :- "+fact);
+}
+
+/* Convertion */
+
+function select_con()
+{
+	document.getElementById("accept_celsius").select();
+}
+
+function conversion()
+{
+	var cel = document.getElementById("accept_celsius").value;
+	var fah = (1.8 * cel) + 32;
+	document.getElementById("fahrenheit").value = fah;
+}
+
+/* Reverse */
+
+function select_string()
+{
+	document.getElementById("accept_string").select();
+}
+
+function reverse_string()
+{
+	var str = document.getElementById("accept_string").value;
+	var rev = str.split("").reverse().join("");
+	document.getElementById("accept_string").value = rev;
+}
+
+/* Length */
+
+function select_length()
+{
+	document.getElementById("accept_length").select();
+}
+
+function length_string()
+{
+	var str = document.getElementById("accept_length").value;
+	var len = str.length;
+	document.getElementById("accept_length").value = len;
+}
+
+/* Today's Day */
+
+function day()
+{
+	var day = new Date();
+	switch(day.getDay())
+	{
+		case 0 :
+			alert("Today is Sunday");	
+			break;
+
+		case 1 :
+			alert("Today is Monday");	
+			break;
+
+
+		case 2 :
+			alert("Today is Tuesday");	
+			break;
+
+
+		case 3 :
+			alert("Today is Wednesday");	
+			break;
+
+
+		case 4 :
+			alert("Today is Thursday");	
+			break;
+
+		case 5 :
+			alert("Today is Friday");	
+			break;
+
+		case 6 :
+			alert("Today is Saturday");	
+			break;
+	}
+}
+
+
+/* Date Differences */
+
+function select_date()
+{
+	document.getElementById("set_date").select();
+}
+
+function date_diff()
+{
+	var today=new Date();
+	var date=today.getDate();
+	var month=today.getMonth()+1;
+	var year=today.getFullYear();	
+
+	var t1=date+"/"+month+"/"+year;
+	var t2=set_date.value;
+	var one_day=1000*60*60*24; 
+
+	var new_date=t1.split("/");     
+	var user_date=t2.split("/");
+
+	var date_today=new Date(new_date[2],(new_date[1]-1),new_date[0]);						  
+	var date_user=new Date(user_date[2],(user_date[1]-1),user_date[0])
+	diff=Math.ceil((date_today.getTime() - date_user.getTime())/(one_day)); 
+	alert("The date entered by you is "+t2+". Today's date is "+t1+". The diffrence between the two dates is "+diff+" days.");
+}
+
+/* Confirmation */
+
+function select_fname()
+{
+	document.getElementById("first_name").select();
+}
+function select_mname()
+{
+	document.getElementById("middle_name").select();
+}
+function select_lname()
+{
+	document.getElementById("last_name").select();
+}
+
+function confirmation()
+{
+	var first_name = document.getElementById("first_name").value;
+	var middle_name = document.getElementById("middle_name").value;
+	var last_name = document.getElementById("last_name").value;
+	var company_name = prompt("Enter Your company name");
+	var con = confirm("Do you want to go with "+ company_name);
+	if(con==true)
+	{		
+		alert(first_name+" works with "+company_name+" company");
+	}
+	else 
+	{
+		confirmation();
+	}
+}
+
+/* Concepts */
+
+function select_num()
+{
+	document.getElementById("number").select();
+}
+
+function prime_num()
+{
+	var num = document.getElementById("number").value;
+	var flag=0;
+
+	if (num==1)
+	{
+		alert("1 neither prime nor composite");
+	}
+	else
+	{	
+		for(i=2;i<num;i++)
+		{
+			if(num%i==0)
+			{
+				flag=0;
+				break;
+			}
+			else
+			{
+				flag=1;
+			}
+		}
+		if(flag==1)
+		{
+			alert("The number is prime");
+		}
+		else
+		{
+			alert("The number is not prime");
+		}
+	}
+}
+
+function arm_num()
+{
+	var arm_num = document.getElementById("number").value;
+	var arm_num1 = document.getElementById("number").value;
+	var arm_rem, arm_cube, arm_total=0;
+
+	while(arm_num !=0)
+	{
+		arm_rem = arm_num%10;
+		arm_total = arm_total + arm_rem * arm_rem * arm_rem;
+  	        arm_num = arm_num/10;
+		arm_num = parseInt(arm_num); 
+	}
+	if(arm_total == arm_num1)
+	{		
+		alert("Number is Armstrong");
+	}
+
+	else
+	{		
+		alert("Number is Not Armstrong");
+	}
+
+}
+
+function pal_num()
+{
+	var pal_str = document.getElementById("number").value;
+	
+	var i=0;
+	var text="";
+	for (i = 0; i <= pal_str.length; i++)
+	text = pal_str.substring(i, i+1) + text;
+	if(pal_str==text)
+	{
+		alert("The entered string is a palindrome");
+	}
+	else
+	{
+		alert("The entered string is not a palindrome");
+	}
+}
+
+function tables()
+{
+	var tables=document.getElementById("number").value;
+	document.write("<h2 align='Center'>Multiplication Table of " +tables);
+	 
+	var i, j, total; // global variables
+	
+	for(i=1;i<=10;i++)
+	{
+		document.write("<p>"); 
+		total=tables * i;
+		total= tables +" * "+ i + " = " + total; 
+		document.write(total);
+	}
+	document.write("</p>");
+	document.write("<a href=js_asg1.html align=center>Home Page</a></h2>");
+}

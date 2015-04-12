@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+<html> 
+	<head> 
+		<title> Advances Ajax</title> 
+			<meta name="description" content="location finder">
+			<meta name="keywords" content="location1 map geocoder">
+ 			<meta name="author" content="Team Evolution">
+
+			<link rel="stylesheet" type="text/css" href="../css/advance.css" /> 
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
+			<script type="text/javascript"> 
+				var location1;
+				var address1;
+				var latlng;
+				var geocoder;
+				var map;
+		 
+ 
+ 
+				// finds the coordinates for the two locations and calls the showMap() function
+				function initialize()
+				{
+					geocoder = new google.maps.Geocoder(); // creating a new geocode object
+
+					
+					address1 = document.getElementById("address1").value;
+
+
+					if (geocoder)
+					{
+						geocoder.geocode( { 'address': address1}, function(results, status)
+						{
+							if (status == google.maps.GeocoderStatus.OK)
+							{
+							location1 = results[0].geometry.location;
+							showMap();
+							} 
+							else
+							{
+							alert("Result Not Found");
+							}
+						});
+ 
+ 
+					}
+				}
+ 
+				// creates and shows the map
+				function showMap()
+				{
+					latlng = new google.maps.LatLng(location1.lat(),location1.lng());
+
+					var mapOptions =
+					{
+						zoom: 8,
+						center: latlng,
+						mapTypeId: google.maps.MapTypeId.HYBRID
+					};
+
+					map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+
+
+					var marker1 = new google.maps.Marker({
+					map: map,
+					position: location1,
+					title: "Location"
+				});
+
+				// create the text to be shown in the infowindows
+				var text1 = '<div id="content">'+
+				//'<h1 id="firstHeading">Location</h1>'+
+				'<div id="bodyContent">'+
+				'<p>Latitude: '+location1.lat()+'</p>'+
+				'<p>Longitude: '+location1.lng()+'</p>'+
+				'<p>Address: '+address1+'</p>'+
+				'</div>'+
+				'</div>';
+
+				// create info boxes for the two markers
+				var infowindow1 = new google.maps.InfoWindow({
+				content: text1
+			});
+ 
+			// add action events so the info windows will be shown when the marker is clicked
+			google.maps.event.addListener(marker1, 'click', function() {
+			infowindow1.open(map,marker1);
+		});
+	}
+ 
+ 
+	</script> 
+	<style> 
+		#address1
+		{
+			width:500px;
+			height:30px;
+		}
+	</style> 
+</head> 
+<body> 
+	<div class="container-wrapper">
+		<div class="header-wrapper">
+			<header>
+				<h1>Advance Ajax</h1>
+			</header>
+		</div>
+
+		<div class="section-wrapper">
+			<section>
+				<div id="form" style="width:100%; height:20%"> 
+					<table align="center"> 
+						<tr> 
+
+							<td colspan="7" align="center"></td> 
+						</tr> 
+						<tr> 
+							<td colspan="7">&nbsp;</td> 
+						</tr> 
+						<tr> 
+							<td>Address:</td> 
+							<td>&nbsp;</td> 
+							<td><input type="text" name="address1" id="address1" size="50"><input type="button" value="Show" onclick="initialize();"></td>  
+						<tr> 
+
+					</table> 
+				</div> 
+				<center><div id="map_canvas" style="width:70%; height:54%"></div></center> 
+			</section>
+		</div>
+			
+	</div>
+
+	<div class="footer-wrapper">
+		<footer>
+			<h2>&copy; AGS Technologies</h2>
+		</footer>
+	</div>
+	
+
+</body> 
+
+</html> 
+

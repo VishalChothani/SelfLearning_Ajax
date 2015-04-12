@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Perosnal Info</title>
+	<link rel="stylesheet" type="text/css" href="../css/asg1.css">
+	<meta name="keywords" content="personal info,first-name,last-name">
+  	<meta name="description" content="Personal Info">
+</head>
+
+<body>
+	<header>
+		<div id="wrapper">
+			<h1>Personal Info</h1>
+		</div>
+	</header>
+
+	<section>
+		<nav>
+			<form>
+				<div id="wrapper1">
+					<div class = "info-adjust">
+						<p><label>First Name</label><input type="text" name="first-name" /></p>
+					</div>
+
+					<div class = "info-adjust1">
+						<p><label>Last Name</label> <input type="text" name="last-name" /></p>			
+					</div>
+			
+					<div class = "info-adjust2">
+						<p>
+							<label>Sex</label>
+							<input type="radio" name="sex" class="gender" checked="checked" />Male
+						 	<input type="radio" name="sex" class="gender" />Female					
+						</p>
+					</div>
+
+					<div class = "info-adjust3">
+						<p>
+							<label>Interest : </label>
+						</p>
+						<ul>
+							<li><a href="http://www.goal.com" title="football">Playing Football</a></li>
+							<li><a href="http://www.startv.com" title="star-tv">Watching TV</a></li>
+							<li><a href="http://www.w3schools.com" title="books">Reading Book</a></li>
+						</ul>
+					</div>
+
+					<div class = "info-adjust4">
+						<p>
+							<label>Reading Books : </label>	
+						</p>
+						<ol>
+							<li><a href="http://www.charthouse.com/productdetail.aspx?nodeclass=11010" title="fish" target="_blank">Fish</a></li>
+							<li><a href="http://www.whomovedmycheese.com" title="wmmc">Who Moved My Cheese</a></li>
+						</ol>
+					</div>
+
+					<div class = "info-adjust4">
+						<p>
+			
+							<label>Movies : </label>
+						</p>
+				
+						<select>
+							<option id="classiot">3classiots</option>
+							<option id="titanic">Titanic</option>
+							<option id="sholay">Sholay</option>
+							<option id="dhoom">Dhoom2</option>
+						</select>				
+					</div>
+			
+					<div class = "info-adjust5">
+						<p>
+							<label>Acadamincs : </label>
+						</p>
+						<table border = 1>
+							<thead>
+								<tr>
+									<td>College</td>
+									<td>Degree</td>
+									<td>Percentage</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>G. S. Moze</td>
+									<td>B.E</td>
+									<td>60%</td>
+								</tr>
+								<tr>
+									<td>D. Y. Patil</td>
+									<td>H.S.C</td>
+									<td>72%</td>
+								</tr>
+								<tr>
+									<td>Judson</td>
+									<td>S.S.C</td>
+									<td>79%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class = "info-adjust6">
+						<p><a href="schedule.html" title="schedule">Schedule</a></p>
+					</div>
+				</div>
+			</form>			
+		</nav>
+		<aside>
+			<div id="wrapper2">
+				<img src="../images/blank.jpeg" width="200" height="200" alt="Profile Pic"/>
+			</div>
+		</aside>
+
+	</section>
+
+	<footer>
+		<div id="wrapper3">
+			<h4>Copy Right @Team Evalution</h4>
+		</div>
+	</footer>
+
+</body>
+
+</html>

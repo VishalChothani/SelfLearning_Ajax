@@ -1,0 +1,264 @@
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	float: left;
+	font-size: 100%;
+	margin: 0;
+	min-width : 100%;
+	height: 100%;
+}
+
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;	
+	width : 100%;	
+	
+}
+
+.section-wrapper
+{
+	width : 100%;
+	float : left;
+	background-color : #030504;
+}
+
+section
+{
+	width : 960px;
+	margin : 0 auto;
+	overflow : hidden;
+	background-image : url("../images/matrix1.png");
+	min-height: 458px;
+}
+
+nav 
+{
+	clear : both;
+	float : left;
+	width : 65%;
+	margin-left : 20px;
+}
+
+aside
+{
+	float : left;
+	width : 30%;
+}
+
+a
+{
+	text-decoration : none;
+	color : cornflowerblue;
+}
+
+#wel_name
+{
+	float : left;
+	font-size : 18px;
+	font-family : monospace;
+	color : #74B815;
+	text-align : center;
+	width : 100%;
+}
+
+form , .browser
+{
+	clear : both;
+	float : right;
+	color : white;
+}
+
+h3
+{
+
+	float : left;
+	font-size : 18px;
+	font-family : monospace;
+	color : #74B815;
+	margin-left : 20px;
+	margin-top : 20px;
+}
+
+form input
+{
+	clear : both;
+	float : left;
+	margin-left : 70px;
+	margin-top : 10px;	
+	color : white;
+	background-color : #333333;
+	padding : 5px;
+	border : 2px solid #333333;
+}
+
+form input[type="submit"]
+{
+	clear : both;
+	float : left;
+	margin-left : 70px;
+	margin-top : 10px;	
+	background-color : #333333;
+	padding : 5px;
+	border : 2px solid #73CA01;
+	border-radius: 15px;
+}
+
+.browser
+{
+	margin-top : 20px;
+	line-height : 30px;
+	font-size : 14px;
+}
+
+.browser div
+{
+	clear : both;
+	float : left;
+	border: 1px solid #73CA01;
+	border-right : none;
+	width : 100%;
+}
+
+/* Image-sprites */ 
+.social
+{
+    	clear: left;
+    	float: left;
+	margin-top : 40px;
+}
+
+.social img
+{
+    	float: left;
+	cursor : pointer;
+}
+
+
+#facebook
+{
+	clear : both;
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -5px -44px;
+}
+
+#twitter
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -55px -44px;
+}
+
+#linkedin
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -105px -44px;
+}
+
+#google
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -145px -44px;
+}
+
+/* Quotes */
+
+#quotes
+{
+	clear : both;
+	color: white;	
+	float : left;
+}
+
+.show_hide
+{
+	clear : both;
+	float : left;
+}
+
+/*Calculator*/
+
+ul 
+{
+	clear : both;
+	float : left; 
+	list-style-type: none;
+	padding : 0;
+	margin : 0; 
+}
+
+li
+{
+	display : inline;
+}
+
+.links ul , .links li
+{
+	padding : 10px;
+} 
+
+.calci
+{
+	clear : both;
+	float : left;
+	padding : 20px;
+}
+
+.calc_border
+{
+	clear : both;
+	float : left;
+	border : 2px solid white;
+	padding : 5px;
+	margin-top : 10px;
+}
+
+.calci h3
+{
+	margin-top : 20px;
+}
+
+.calci input 
+{
+	float : none;
+	margin-left : 0px;
+	width : 34px;
+	border : 1px solid #CCC;
+}
+
+#screen
+{
+	float : left;
+	clear : both;
+	width : 150px;
+	padding : 0px;
+	height : 25px;
+	border : 1px solid lightgrey;
+}
+
+/* show_slide */
+
+.show_slide
+{
+	clear : both;
+	float : left;
+	margin-top : 40px;
+}
+
+
+label 
+{
+	clear : both;
+	float : left;
+	margin-top : 5px;
+	color : red;
+	font-size : 12px;
+}

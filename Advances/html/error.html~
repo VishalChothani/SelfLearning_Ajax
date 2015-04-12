@@ -1,0 +1,38 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Error Page</title>
+		<script src="../javascript/error.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/error.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>Error Page</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<form>
+						<h3>ERROR</h3>
+						<label>Please Enter Valid Username and password</label>
+						<input type="button" value="Back" onclick="home_page()">
+					</form>
+			</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

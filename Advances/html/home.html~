@@ -1,0 +1,118 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Home Page</title>
+		<script src="../javascript/home.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/home.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body onload="loading(), browser_info(), view_name(), slideshow(), quote_display()" >	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>JAVA Script Assignment #2</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper" id="sd">
+				<section>
+					<div id="wel_name"></div>
+					<nav>
+						<div class="links">
+							<ul>
+								<li><a href="#" title="Reverse" onclick="reverse_header()">Reverse Header</a></li>
+								<li><a href="#" title="Change_BG_Color" onclick="change_color()">Change Color</a></li>
+								<li><a href="contactus.html" title="Contact us">Contact us</a></li>
+							</ul>
+						</div>
+						
+						<div class="show_hide">
+							<!--<input type="button" onclick="quote_display()" value="Show/hide Quote" />-->
+							<p id="quotes"></p>
+						</div>
+
+						<div class="show_slide">
+							<img name="slide" src="../images/s1.jpg" alt="Sachin" width="500" height="400"/>
+						</div>
+
+						<form class="calci">
+							<h3> Calculator </h3>
+							<div class="calc_border">
+								<input id="screen" type="text" onKeyUp=" accept_number()"/>
+								<label id="calc_error"></label>
+								<ul id="buttons">
+									<li><input  onclick="pushButton(this.value)" type="button" value="1" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="2" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="3" /></li>
+									<li><input  onclick="push(this.value)" type="button" value="/" /></li>
+								</ul>
+								<ul id="buttons">
+									<li><input  onclick="pushButton(this.value)" type="button" value="4" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="5" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="6" /></li>
+									<li><input  onclick="push(this.value)" type="button" value="*" /></li>
+								</ul>
+								<ul id="buttons">
+									<li><input  onclick="pushButton(this.value)" type="button" value="7" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="8" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="9" /></li>
+									<li><input  onclick="push(this.value)" type="button" value="-" /></li>
+								</ul>
+								<ul id="buttons">
+									<li><input  onclick="pushButton(this.value)" type="button" value="0" /></li>
+									<li><input  onclick="push(this.value)" type="button" value="C" /></li>
+									<li><input  onclick="push(this.value)" type="button" value="+" /></li>
+									<li><input  onclick="calculate();" type="button" value="=" /></li>
+								</ul>
+								<ul id="buttons">
+									<li><input  onclick="sin1()" type="button" value="sin" /></li>
+									<li><input  onclick="cos1()" type="button" value="cos" /></li>
+									<li><input  onclick="tan1()" type="button" value="tan" /></li>
+									<li><input  onclick="pushButton(this.value)" type="button" value="." /></li>
+								</ul>
+							</div>
+						</form>
+						
+					</nav>
+
+
+					<aside>
+						<form>
+							<div id="date">Date</div>
+							<div id="time">Time</div>
+						</form>
+
+						<div class="browser" id="browser_table">
+							<h3>Browser Information</h3>
+							<div id="cd_name"></div>
+							<div id="app_name"></div>
+							<div id="app_version"></div>
+							<div id="co_enabled"></div>
+							<div id="platform"></div>
+							<div id="ua_header"></div>
+							<div id="ua_language"></div>
+							<div><a href="#" title="Change_table_Color" onclick="change_table_color()">Change Color</a></div>
+						</div>	
+
+						<div class="social">								
+							<img id="facebook" src="../images/trans.gif" alt="facebook" width="1" height="1" onclick="social(1)"/>
+							<img id="twitter" src="../images/trans.gif" alt="twitter" width="1" height="1" onclick="social(2)"/>
+							<img id="linkedin" src="../images/trans.gif" alt="linkedin" width="1" height="1" onclick="social(3)"/>
+							<img id="google" src="../images/trans.gif" alt="google" width="1" height="1" onclick="social(4)"/>
+						</div>
+					</aside>
+				</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

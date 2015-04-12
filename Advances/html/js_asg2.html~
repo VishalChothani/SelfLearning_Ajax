@@ -1,0 +1,99 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>Login Page</title>
+		<script src="../javascript/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>JAVA Script Assignment #1</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<nav>
+						<div class="var-display">
+							<h3>Using Pop-up Alert</h3>
+							<input type="button" onclick="var_display()" value="Display Variable" />
+						</div>
+						<div class="var-display">
+							<h3>Display Name</h3>
+							<input type="text" id="accept_name" value="Enter Your Name" onclick="select_display()"/>
+							<input type="button" onclick="accept_display()" value="Show My Name" />
+						</div>
+
+						<div class="var-display">
+							<h3>Factorial</h3>
+							<input type="text" id="accept_factorial" value="Enter a number" onclick="select_fact()"/>
+							<input type="button" onclick="factorial()" value="Calculate factorial" />
+						</div>
+
+						<div class="var-display">
+							<h3>Celsius to Fahrenheit</h3>
+							<input type="text" id="accept_celsius" value="Enter a temp in celcius" onclick="select_con()"/>
+							<input type="text" id="fahrenheit" value="Fahrenheit"/>
+							<input type="button" onclick="conversion()" value="Convert" />
+						</div>
+
+						<div class="var-display">
+							<h3>Reverse a String</h3>
+							<input type="text" id="accept_string" value="Enter the String" onclick="select_string()"/>
+							<input type="button" onclick="reverse_string()" value="Reverse Me" />
+						</div>
+
+						<div class="var-display">
+							<h3>Today's Day</h3>
+							<input type="button" onclick="day()" value="Today's Day" />
+						</div>
+					</nav>
+					<aside>
+						<div class="var-display">
+							<h3>Length of a String</h3>
+							<input type="text" id="accept_length" value="Enter the String" onclick="select_length()"/>
+							<input type="button" onclick="length_string()" value="My Length" />
+						</div>						
+
+						<div class="var-display">
+							<h3>Date Differences</h3>
+							<input type="text" id="set_date" value="Mon Day Year" onclick="select_date()"/>
+							<input type="button" onclick="date_diff()" value="Date Differences" />
+						</div>
+
+						<div class="var-display">
+							<h3>Confirmation</h3>
+							<input type="text" id="first_name" value="Enter a First Name" onclick="select_fname()"/>
+							<input type="text" id="middle_name" value="Enter a Middle Name" onclick="select_mname()"/>
+							<input type="text" id="last_name" value="Enter a Last Name" onclick="select_lname()"/>
+							<input type="button" onclick="confirmation()" value="Continue" />
+						</div>
+
+						<div class="var-display">
+							<h3>Concepts</h3>
+							<input type="text" id="number" value="Enter the Number " onclick="select_num()"/>
+							<input type="radio" name ="num" id="prime" onClick="prime_num()"><span>Prime Number</span>
+							<input type="radio" name ="num" id="arms" onClick="arm_num()"><span>Armstrong's Number</span>
+							<input type="radio" name ="num" id="palind" onClick="pal_num()"><span>Palindrome</span>
+							<input type="radio" name ="num" id="tables" onClick="tables()"><span>Tables</span>
+						</div>
+
+					</aside>
+				</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

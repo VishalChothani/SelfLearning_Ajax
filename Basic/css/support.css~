@@ -1,0 +1,42 @@
+@import url('../css/yellow-stone-common.css');
+
+.body1-wrapper
+{
+	margin-bottom : 30px;
+}
+.content-wrapper
+{
+	clear : both;
+	float : left;
+	width : 66%;
+	padding-left : 40px;
+	
+}
+
+/* Template License */
+
+.template-license
+{
+	padding-top : 20px;
+}
+
+
+.template-license 
+{
+	clear : both;
+	float : left;
+}
+
+.template-para p
+{
+	margin-top : 10px;
+	width : 95%;
+	font-size : 12px;
+}
+
+.template-para span
+{
+	color : #9A9595;
+	font-weight : bold;
+}
+

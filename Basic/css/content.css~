@@ -1,0 +1,322 @@
+/* CSS for CSS_ASSIGNMENT_2 */
+
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/* Wrapper(Background) */
+body
+{	
+	background-color : black;
+	margin : 0;
+	height: auto;
+}
+
+back-ground
+{
+	float : left;
+	background-color : black;
+}
+
+/* Entier body */
+
+.wrapper
+{	
+	margin: 0 auto ;	
+	background-color : black;
+	height: 1600px;
+}
+.container
+{
+	margin : 0 auto ;
+	width: 960px;
+	border-style: solid;
+	border-color: #444444;
+	background-color : InactiveCaption;
+	border-width : 1px;
+	margin-top : 20px;
+	overflow:auto;	
+	min-height: 100%;
+	
+}
+
+.content-wrapper
+{
+	overflow:auto;	
+	min-height: 100%;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* Level 2 Menu */
+
+h3 
+{
+	font-size : 30px;
+	padding-bottom : 20px;
+}
+
+.menu-level2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+.menu-level2 ul
+{
+	clear : both;
+	float : right;
+}
+
+.menu-level2 ul li
+{
+	position : relative;	
+	padding: 10px;
+	display : inline-block;
+	font-family: arial;
+	font-size : 16px;
+	border-style: solid;
+	border-color: black;
+	border-width : 1px;
+}
+
+.menu-level2 a
+{
+	text-decoration : none;
+	font-weight: bold;
+	color: black;
+	padding: 10px;
+}
+
+.menu-level2 li:hover
+{
+	background-color:cadetblue;
+}
+
+.menu-level2 ul li ul
+{
+	position : absolute;
+	visibility : hidden;
+
+}
+
+.menu-level2 ul li:hover ul
+{
+	margin-top:10px;
+	visibility : visible;
+}
+
+.menu-level2 ul li ul li
+{
+    	display:block;
+
+}
+
+.menu-level2 ul li
+{
+	position : relative;	
+
+}
+
+.menu-level2 ul li ul li .rel-news
+{
+	position : absolute;
+	display : none;
+}
+
+.menu-level2 ul li ul li:hover ul
+{
+	margin-left:42px;
+	display:inline-block;
+}
+
+
+/* ----------------------------------------------Image------------------------------------------------------------------------ */
+
+.image
+{
+	clear : both;
+	overflow : auto;
+	margin-left: 35px;
+}
+
+.image h3
+{
+	padding-top : 50px;
+}
+
+
+.img-row0 , .img-row1 , .img-row2 , .img-row3 
+{
+	clear : left;
+  	margin-left : 50px;
+	height: auto;
+  	width: auto;
+  	float: left;
+  	text-align: center;
+}
+	
+img
+{
+  	margin: 3px;
+}
+
+.desc
+{
+  	text-align: center;
+  	font-weight: normal;
+  	width: 120px;
+  	margin: 2px;
+}
+
+.img-row00 , .img-row01 , .img-row02 , .img-row03 , .img-row10 , .img-row11 , .img-row12 , .img-row13 
+{
+  	border: 1px solid black;
+	margin: 2px;
+	float : left;
+}
+
+.img-row20 , .img-row21 , .img-row22 , .img-row23 , .img-row30 , .img-row31 , .img-row32 , .img-row33 
+{
+  	border: 1px solid black;
+	margin: 2px;
+	float : left;
+}
+
+
+/* ----------------------------------------- Corners ---------------------------------------------------------------------- */
+
+.wrapper-corner
+{
+	clear : left;
+	float : left;
+}
+
+.wrapper-corner h3
+{
+	padding-top : 50px;
+	padding-left : 30px;
+}
+
+.bg-color
+{
+	
+	overflow : auto;
+	padding : 10px;
+	background-color : white;
+	margin-left : 40px;	
+
+}
+.round-corner
+{
+	clear : left;
+	float : left;
+	margin-left : 10px;
+	background-color : #425795;
+}
+
+.round-corner p
+{
+	text-align : center;
+}
+
+
+.round-corner .top
+{
+    width: 400px;
+    height: 25px;
+    clear: both;    
+}
+
+
+.round-corner .common-measure
+{
+	height: 25px;
+    	width: 25px;
+}
+.round-corner .top-left
+{
+	float: left;
+    	clear: left;
+   	background: url('../images/top-left.png') no-repeat;   
+    	
+}
+
+.round-corner .top-right
+{
+	
+	float: right;
+    	background: url('../images/top-right.png') no-repeat;   
+    	
+}
+
+.round-corner .bottom-left
+{
+	float: left;
+    	clear: left;
+    	background: url('../images/bottom-left.png') no-repeat;   
+    	
+}
+
+.round-corner .bottom-right
+{
+	float: right;
+    	clear: right;
+   	background: url('../images/bottom-right.png') no-repeat;   
+    	
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* Image-sprites */ 
+.image-sprites
+{
+    	clear: left;
+    	float: left;
+	padding : 30px;
+}
+
+.facebook
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -5px -44px;
+}
+
+.twitter
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -55px -44px;
+}
+
+.linkedin
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -105px -44px;
+}
+
+.google
+{
+	width:45px;
+	height:45px;
+	background:url(../images/image-sprites_social-link.png) -145px -44px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* Sticky Footer */ 
+
+.css2-footer 
+{
+ 	position:fixed;
+    	bottom: 0;
+    	left:0;
+    	right:0;
+	background-color: cadetblue;
+      	min-width: 100%;
+} 
+

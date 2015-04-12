@@ -1,0 +1,182 @@
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+
+/*  ------------------ Wrapper ------------------  */
+body
+{
+	float: left;
+	font-size: 100%;
+	margin: 0;
+	min-width : 100%;
+	height: 100%;
+}
+
+
+.container-wrapper
+{
+	overflow : auto;
+	margin : 0 auto;	
+	width : 100%;	
+
+	/*min-height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	
+}
+
+
+.section-wrapper
+{
+	width : 100%;
+	float : left;
+	background-color : #030504;
+}
+
+section
+{
+	width : 960px;
+	margin : 0 auto;
+	overflow : hidden;
+	background-image : url("../images/matrix1.png");
+	padding-top : 10px;
+	min-height: 458px;
+}
+
+h3
+{
+	clear : both;
+	float : left;
+	font-size : 20px;
+	color : #6FC002;
+	font-weight : bold;
+	padding-bottom : 10px;
+}
+
+.wrapper-record
+{
+	clear : both;
+	float : left;
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+
+#title span
+{
+	float : left;
+	width : 20%;
+	color : #6FC002;
+	text-align : center;
+}
+
+#xml-contents span
+{
+	float : left;
+	width : 20%;
+	
+	color : white;
+	text-align : center;
+}
+
+#title
+{
+	float : left;
+	width : 100%;
+}
+
+#xml-contents
+{
+	margin-top : 20px;
+	clear : both;
+	float : left;
+	width : 100%;
+}
+
+#xml-contents div
+{
+	clear : both;
+	float : left;
+	width : 100%;
+}
+
+
+/* Articles */
+
+#articles
+{
+	clear : both;
+	float : left;
+	margin-top : 10px;
+	border : 1px solid white;
+	padding : 5px;
+	width : 70%;
+	height : 250px;
+	margin-left: 63px;
+}
+
+#article-screen
+{
+	border : 1px solid white;
+	width : 82%;
+	float :left;
+	padding : 5px;
+	height : 95%;
+	overflow : auto;
+	color : white;
+}
+
+#article-remote
+{
+	float : right;
+	border : 1px solid white;
+	width : 13%;
+	padding : 5px;
+	height : 95%;
+	overflow : auto;
+}
+
+input[type="button"] 
+{
+	background-color: #333333;
+	border: 2px solid #73CA01;
+	border-radius: 15px 15px 15px 15px;
+	clear: both;
+	color: #73CA01;
+	float: left;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.tool h3
+{
+	float : left;
+	text-align : center;
+	width : 100%;
+	margin-top : 20px;
+}
+
+p
+{
+	clear : both;
+	float : left;
+	font-size: 15px;
+	color : green;
+	
+}
+
+.pages
+{
+	clear : both;
+	float : left;
+	font-size: 15px;
+	color : green;
+
+}
+
+/* ticker-tape */
+
+#ticker-tape
+{
+	float : left;
+	margin-top : 20px;
+}

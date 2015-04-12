@@ -1,0 +1,143 @@
+@import url('../css/yellow-stone-common.css');
+
+.body1-wrapper
+{
+	margin-bottom : 30px;
+}
+.content-wrapper
+{
+	clear : both;
+	float : left;
+	width : 66%;
+	padding-left : 40px;
+	
+}
+
+/* Template License */
+
+.template-license
+{
+	padding-top : 20px;
+}
+
+
+.template-license 
+{
+	clear : both;
+	float : left;
+}
+
+.template-para p
+{
+	margin-top : 10px;
+	width : 95%;
+	font-size : 12px;
+}
+
+.template-para span
+{
+	
+	font-weight : bold;
+}
+
+
+/* Response */
+
+.response-title h3
+{
+	padding-top : 30px;
+	padding-bottom : 30px;
+}
+.response img 
+{
+	clear : left;
+	float : left;
+	border : 1px solid #C1C1C1;
+}
+
+.response
+{
+	padding-bottom : 20px;
+	overflow : auto;
+	float : left;
+
+}
+.response .image-wrap
+{
+	clear : left;
+	float : left;
+	width : 9%;
+}
+
+ .response .image-para
+{
+	overflow : auto;
+	float : left;
+	width : 100%;
+	padding-top : 20px;
+	padding-bottom : 7px;
+}
+
+ .response .para-wrap 
+{
+	overflow : auto;
+	float : left;
+	width : 50%;
+}
+
+ .response .para-wrap p
+{
+	font-size : 11px;
+	margin : 0px;
+	padding : 0px;
+}
+
+
+/* Form */
+
+.template-license form , .contact-form label , .contact-form input , .contact-form textarea
+{
+	clear : both;
+	float : left;
+}
+
+.template-license form
+{
+	margin-top : 10px;	
+}
+
+.send-mail
+{
+	margin-top : 35px;
+}
+
+.contact-form input 
+{
+	border : 1px solid #C1C1C1;
+	height : 25px;
+	width : 33em;
+}
+
+.contact-form textarea
+{
+	border : 1px solid #C1C1C1;
+}
+
+.contact-form label
+{
+	font-size : 12px;
+	font-family : arial;
+	color : #C1C1C1;
+	margin-top : 25px;
+	margin-bottom : 5px;
+}
+
+.contact-form .submit img
+{
+	clear : both;
+	float : left;
+	margin-top : 20px;
+	
+}
+
+
